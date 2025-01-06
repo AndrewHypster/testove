@@ -103,7 +103,7 @@
   color: #ff8e32;
 }
 
-.hero-easy h2 {
+.hero-easy h3 {
   padding: 8px 12px;
   font-weight: 800;
   background: linear-gradient(to right, #77c115, #92d934, #77c115);
@@ -115,7 +115,7 @@
   position: absolute;
   bottom: -80px;
   right: -37px;
-  width: clamp(85%, 95%, 300px);
+  width: clamp(80%, 105%, 300px);
 }
 
 .hero-gantele {
@@ -139,7 +139,7 @@
   font-family: "Open Sans", serif;
 }
 
-.hero-price h2 {
+.hero-price h3 {
   background: linear-gradient(to left, #fe5900, #ff8e32);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
