@@ -10,7 +10,7 @@
 
 .founder-girl {
   position: absolute;
-  top: 48px;
+  bottom: -130%;
   left: 0;
   width: 60%;
 }
@@ -18,7 +18,6 @@
 .founder-title {
   width: fit-content;
   margin: 0 auto;
-  font-size: 32px;
   font-weight: 900;
   background: linear-gradient(to left, #92D934, #77C115);
   -webkit-background-clip: text;
@@ -34,7 +33,7 @@
 }
 
 .founder-main-text {
-  margin-top: -200px;
+  margin-top: calc(-1*(clamp(150px, 180px, 180px)));
   margin-right: 20px;
   padding: 8px 14px;
   border-radius: 6px;
@@ -46,7 +45,7 @@
 }
 
 .founder-text {
-  margin-top: 110px;
+  margin-top: 90px;
   margin-right: -20px;
   padding: 16px;
   border: 2px solid #92D934;
