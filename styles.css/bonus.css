@@ -1,0 +1,64 @@
+.bonus {
+  position: relative;
+  z-index: 2;
+}
+
+.bonus-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.bonus-content {
+  position: relative;
+  z-index: 2;
+  top: -15px;
+}
+
+.bonus-title {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 900;
+  color: white;
+  display: block;
+}
+
+.bonus-text {
+  position: relative;
+  width: max-content;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 8px;
+  padding: 8px 16px;
+  background: white;
+  border-radius: 8px;
+  font-weight: 500;
+  display: block;
+}
+
+.bonus-text span {
+  color: #FE5900;
+  font-weight: 700;
+}
+
+.bonuses {
+  align-items: baseline;
+  display: flex;
+}
+
+.bonuses img {
+  position: relative;
+  margin-left: -10px;
+  height: clamp(.5rem, 200px, 45vw);
+  z-index: 2;
+}
+
+.bonuses img:first-child {
+  top: 20px
+}
+
+.bonuses img:nth-child(2n) {
+  z-index: 1;
+}

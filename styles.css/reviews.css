@@ -1,0 +1,29 @@
+.reviews {
+  position: relative;
+  height: 400px;
+}
+
+.reviews-title {
+  width: fit-content;
+  margin: 0 auto;
+  background: linear-gradient(to left, #92d934, #77c115);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 32px;
+  font-weight: 900;
+  display: block;
+}
+
+.reviews-cm {
+  position: absolute;
+  top: -120px;
+  right: 0;
+  width: 40%;
+}
+
+.reviews-gantele {
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  width: 40%;
+}

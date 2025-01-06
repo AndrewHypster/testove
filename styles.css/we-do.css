@@ -1,0 +1,109 @@
+.we-do {
+  padding-top: 40px;
+}
+
+.we-do-title {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 800;
+  background: linear-gradient(to left, #92d934, #77c115);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.we-do-item {
+  position: relative;
+  margin-top: 14px;
+}
+
+.we-do-item-title {
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 8px;
+  padding: 4px 8px;
+  color: white;
+  background: linear-gradient(to right, #ff8e32, #fe5900);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.we-do-item li {
+  position: relative;
+  margin-left: 14px;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.we-do-item li::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -14px;
+  width: 6px;
+  height: 6px;
+  background: #FF8E32;
+  box-shadow: 0 0 3px #FF8E32;
+  border-radius: 50%;
+  display: block;
+}
+
+.we-get-imgs {
+  width: 100%;
+  justify-items: center;
+  align-items: baseline;
+  display: flex;
+}
+
+.we-get-imgs img {
+  width: clamp(.5rem, 58%, 35vw);
+
+}
+
+.we-get-imgs img:nth-child(2n) {
+  width: clamp(.5rem, 68%, 40vw);
+  margin-left: -8%;
+}
+
+.we-trens {
+  position: relative;
+}
+
+.we-trens-gantele {
+  position: absolute;
+  z-index: 2;
+  top: -130px;
+  right: -76px;
+  width: 75%;
+}
+
+.we-trens-cm {
+  position: absolute;
+  left: -37px;
+  bottom: -180px;
+  width: 45%;
+}
+
+.we-trens-photo {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  margin-top: 14px;
+}
+
+.we-call-back img {
+  width: 100%;
+}
+
+.we-recepts {
+  margin-left: 36px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.we-recepts img {
+  margin-left: -18px;
+  margin-bottom: -24px;
+  width: 55%;
+}

@@ -1,0 +1,76 @@
+.founder {
+  position: relative;
+  padding-top: 32px;
+  margin-bottom: 140px;
+  align-items: end;
+  flex-wrap: wrap;
+  flex-direction: column;
+  display: flex;
+}
+
+.founder-girl {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 60%;
+}
+
+.founder-title {
+  width: fit-content;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: 900;
+  background: linear-gradient(to left, #92D934, #77C115);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+
+.founder p {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+  display: block;
+}
+
+.founder-main-text {
+  margin-top: -200px;
+  margin-right: 20px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  background: linear-gradient(to right, #FF8E32, #FE5900);
+  transform: rotate(5.21deg);
+  font-weight: 500;
+  line-height: 110%;
+  color: white;
+}
+
+.founder-text {
+  margin-top: 110px;
+  margin-right: -20px;
+  padding: 16px;
+  border: 2px solid #92D934;
+  border-radius: 8px;
+  backdrop-filter: blur(33.58px);
+  background-color: rgb(255, 255, 255, .68);
+  transform: rotate(-7.07deg);
+  line-height: 110%;
+  font-weight: 500;
+}
+
+.founder-text img {
+  position: absolute;
+  top: -16px;
+  right: -16px;
+  width: 48px;
+}
+
+.founder-text span {
+  color: #77C115;
+  font-weight: 600;
+}
+
+.founder .blur-transition {
+  position: absolute;
+  bottom: -290px;
+}

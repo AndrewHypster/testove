@@ -1,0 +1,46 @@
+.blur-transition {
+  position: relative;
+  z-index: 1;
+  transform: translateY(-50%);
+  width: 120%;
+  height: 80px; /* Висота переходу */
+  background: rgba(255, 255, 255, 1);
+  filter: blur(18px);
+}
+
+.results {
+  position: relative;
+  z-index: 2;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-top: 0;
+  margin-top: -60px;
+}
+
+.circle {
+  position: absolute;
+  right: 0px;
+  z-index: 3;
+  transform: translate(70%, -50%);
+  width: 180px;
+  height: 180px;
+  background: #FF8E32;
+  border-radius: 100vw;
+  filter: blur(60px);
+}
+
+.results-title {
+  width: fit-content;
+  margin: 0 auto;
+  background: linear-gradient(to right, #92D934, #77C115);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 28px;
+  display: block;
+}
+
+.results img {
+  position: absolute;
+  margin-top: -50px;
+  width: 250px;
+}

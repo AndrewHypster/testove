@@ -1,0 +1,70 @@
+.course-for {
+  position: relative;
+  padding-bottom: 72px;
+}
+
+.course-for-bg {
+  position: absolute;
+  top: 0;
+  left: -37px;
+}
+
+.course-for-bg-main {
+  width: 100%;
+}
+
+.course-for-bg-cm1 {
+  position: absolute;
+  top: 120px;
+  right: 0;
+  width: 100px;
+}
+
+.course-for-bg-cm2 {
+  position: absolute;
+  bottom: 140px;
+  left: 37px;
+  width: 120px;
+}
+
+.course-for-cont {
+  position: relative;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.course-for-title {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  display: block;
+}
+
+.course-for-list {
+  margin-top: 12px;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  display: flex;
+}
+
+.course-for-item {
+  justify-items: center;
+  display: grid;
+}
+
+.course-for-item img {
+  height: clamp(.5rem, 130px, 30vw);
+  display: block;
+}
+
+.course-for-text {
+  padding: 8px 12px;
+  text-align: center;
+  background: white;
+  box-shadow: 0 0 7px rgb(0, 0, 0, .22);
+  border-radius: 6px;
+  font-size: clamp(.5rem, 1rem, 3.2vw);
+}
